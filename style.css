@@ -1,0 +1,252 @@
+body {
+    background-color: #44cb4d;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    text-align: center;
+
+
+    cursor: none;
+    overflow: hidden;
+}
+
+.promo {
+    margin-top: 5px;
+}
+
+.cookie {
+    fill: #fec005e9;
+}
+
+.cookie_shadow {
+    fill: #d37d26;
+}
+
+.choco {
+    fill: #662F0D;
+}
+
+h2 {
+    color: #2d2b2b;
+    font-size: .5rem;
+    margin: 5px 0 0 0;
+    padding: 10px 30px;
+    font-size: 60px;
+    background: #e0d619;
+}
+
+span {
+    margin-top: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #8ac249;
+    font-size: 40px;
+}
+
+.parrot {
+    animation: floaty 1.75s infinite;
+}
+
+#parroty {
+    position: relative;
+    height: 80vh;
+}
+
+#cookie {
+    position: absolute;
+    height: 20vh;
+    width: 6vw;
+    margin: -67px 0 0 -55px;
+}
+
+#shadow {
+    fill: #2f5703;
+    animation: shadow 1.75s infinite;
+    transform-origin: 50% 50%;
+}
+
+.Eye1,
+.Eye2 {
+    animation: blink 5s infinite;
+    transform-origin: 0px;
+    transform-box: fill-box;
+}
+
+.Wing_Left {
+    animation: shake-left-wing 500ms infinite;
+    transform-origin: 37% 0%;
+    transform-box: fill-box;
+}
+
+.Wing_Right {
+    animation: shake-right-wing 500ms infinite;
+    transform-origin: 57% 0%;
+    transform-box: fill-box;
+}
+
+.Left_Leg {
+    animation: shake-left-leg 1.5s infinite;
+    transform-origin: 66% 0%;
+    transform-box: fill-box;
+}
+
+.Right_Leg {
+    animation: shake-right-leg 2s infinite;
+    transform-origin: 32% 2%;
+    transform-box: fill-box;
+}
+
+.st0 {
+    display: none;
+}
+
+.st1 {
+    fill: #FE931D;
+    stroke: #a55000;
+    stroke-width: 2;
+}
+
+.st2 {
+
+    fill: #fc4619;
+
+}
+
+.st3 {
+    fill: #ecd136;
+}
+
+.st4 {
+    fill: #a03c06;
+}
+
+.st5 {
+    fill: #f9591a;
+}
+
+.st6 {
+    display: none;
+    fill: #ece110;
+}
+
+.st7 {
+    fill: #FFFFFF;
+}
+
+.st8 {
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.st9 {
+    fill: #FFFFFF;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.st10 {
+    fill: #ead91d;
+}
+
+@keyframes blink {
+    40% {
+        transform: scaleY(1);
+    }
+
+    45% {
+        transform: scaleY(0.1);
+    }
+
+    50% {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes shake-left-wing {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(130deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes shake-right-wing {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-130deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes shake-left-leg {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes shake-right-leg {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-30deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes floaty {
+    0% {
+        transform: translateY(25px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(25px);
+    }
+}
+
+@keyframes shadow {
+    0% {
+        transform: scale(0.9);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
