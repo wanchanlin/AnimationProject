@@ -1,5 +1,4 @@
 # AnimationProject
-# AnimationProject
 
 ## Description
 This project is a simple web animation where a parrot follows the mouse cursor and a cookie moves along with it. The parrot's wings, legs, and eyes have animations to make it look lively.
